@@ -8,13 +8,14 @@
 <body>
     <div id="container">
     <form action="/" method="post">
-    <label for="cityInput" class="labelfor">Type in the city name: </label>
+    <label for="cityInput" class="labelfor">  </label>
     <input type="text" name="cityName" id="cityInput" placeholder="city-name">
     <button type="submit">Check</button>
-    <p>Built by <a href="https://twitter.com/goddhi_">Goddhi</a> </p>
     </form>
 
 </div>
+<p class="social">Built by <a href="https://twitter.com/goddhi_">Goddhi</a> </p>
+
     <style>
         body {
             overflow: hidden; /* Hide scrollbars */
@@ -22,10 +23,9 @@
         }
         #container {
             margin-top: 20%;
-            margin-left: 20%;
-            /* position: relative;
-            left: 50%;
-            top: 300%; */
+            /* margin-left: 20%; */
+            text-align: center;
+            
         }
         .labelfor {
             font-size: 30px;
@@ -90,7 +90,21 @@ button:hover {
   box-sizing: border-box;
 }
 
-  @media only screen and (max-width: 600px) {
+    .social {
+
+        color: #fadcaa;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;      
+        font-size: 15px;
+        /* margin-left: 30%; */
+        text-align: center;
+        margin-top: 250px;
+   }
+   .social a{
+    color: #794c74;
+    text-decoration: none;
+   }
+
+  @media only screen and (max-width: 550px) {
     
         body {
             overflow: hidden; /* Hide scrollbars */
@@ -98,17 +112,16 @@ button:hover {
         }
         #container {
             margin-top: 50%;
-            margin-left: 10%;
+            margin-left: 5%;
             /* position: relative;
             left: 50%;
             top: 300%; */
         }
         .labelfor {
-            font-size: 20px;
+            font-size: 10px;
             color: #fadcaa;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            
-            
+            font-weight: bold;
         }
         button {
           
@@ -127,7 +140,7 @@ button:hover {
         font-size: 15px;
         font-weight: 100;
         padding: 20px;
-        margin-left: 10px;
+        margin-left: 5px;
         -webkit-box-shadow: 1px 1px 20px 0 #000000;
         -moz-box-shadow: 1px 1px 20px 0 #000000;
         box-shadow: 1px 1px 20px 0 #000000;
@@ -155,8 +168,8 @@ button:hover {
 
                 
         
-                input[type=text], select {
-        width: 30%;
+         input[type=text], select {
+        width: 50%;
         padding: 12px 20px;
         margin: 8px 0;
         display: inline-block;
