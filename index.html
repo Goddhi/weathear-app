@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your-weather-app</title>
+</head>
+<body>
+    <div id="container">
+    <form action="/" method="post">
+    <label for="cityInput" class="labelfor">Type in the city name: </label>
+    <input type="text" name="cityName" id="cityInput" placeholder="city-name">
+    <button type="submit">Check</button>
+    <p>Built by <a href="https://twitter.com/goddhi_">Goddhi</a> </p>
+    </form>
+
+</div>
+    <style>
+        body {
+            overflow: hidden; /* Hide scrollbars */
+            background-color:#c56183;
+        }
+        #container {
+            margin-top: 20%;
+            margin-left: 20%;
+            /* position: relative;
+            left: 50%;
+            top: 300%; */
+        }
+        .labelfor {
+            font-size: 30px;
+            color: #fadcaa;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+            
+        }
+        button {
+            /*color: red;*/
+            /*background-color: #fadcaa;*/
+            
+   background: #fadcaa;
+   background-image: -webkit-linear-gradient(top, #fadcaa, #fadcaa);
+   background-image: -moz-linear-gradient(top, #fadcaa, #fadcaa);
+   background-image: -ms-linear-gradient(top, #fadcaa, #fadcaa);
+   background-image: -o-linear-gradient(top, #fadcaa, #fadcaa);
+   background-image: -webkit-gradient(to bottom, #fadcaa, #fadcaa);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 15px;
+   font-weight: 100;
+   padding: 20px;
+   margin-left: 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+button:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #fadcaa, #fadcaa);
+   background-image: -moz-linear-gradient(top, #fadcaa, #fadcaa);
+   background-image: -ms-linear-gradient(top, #fadcaa, #fadcaa);
+   background-image: -o-linear-gradient(top, #fadcaa, #fadcaa);
+   background-image: -webkit-gradient(to bottom, #fadcaa, #fadcaa);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+        
+ 
+        input[type=text], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+  @media only screen and (max-width: 600px) {
+    
+        body {
+            overflow: hidden; /* Hide scrollbars */
+            background-color:#c56183;
+        }
+        #container {
+            margin-top: 50%;
+            margin-left: 10%;
+            /* position: relative;
+            left: 50%;
+            top: 300%; */
+        }
+        .labelfor {
+            font-size: 20px;
+            color: #fadcaa;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+            
+        }
+        button {
+          
+            
+        background: #fadcaa;
+        background-image: -webkit-linear-gradient(top, #fadcaa, #fadcaa);
+        background-image: -moz-linear-gradient(top, #fadcaa, #fadcaa);
+        background-image: -ms-linear-gradient(top, #fadcaa, #fadcaa);
+        background-image: -o-linear-gradient(top, #fadcaa, #fadcaa);
+        background-image: -webkit-gradient(to bottom, #fadcaa, #fadcaa);
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        color: #FFFFFF;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 15px;
+        font-weight: 100;
+        padding: 20px;
+        margin-left: 10px;
+        -webkit-box-shadow: 1px 1px 20px 0 #000000;
+        -moz-box-shadow: 1px 1px 20px 0 #000000;
+        box-shadow: 1px 1px 20px 0 #000000;
+        text-shadow: 1px 1px 20px #000000;
+        border: solid #337FED 1px;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+        }
+
+        button:hover {
+        border: solid #337FED 1px;
+        background: #1E62D0;
+        background-image: -webkit-linear-gradient(top, #fadcaa, #fadcaa);
+        background-image: -moz-linear-gradient(top, #fadcaa, #fadcaa);
+        background-image: -ms-linear-gradient(top, #fadcaa, #fadcaa);
+        background-image: -o-linear-gradient(top, #fadcaa, #fadcaa);
+        background-image: -webkit-gradient(to bottom, #fadcaa, #fadcaa);
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        text-decoration: none;
+        }
+
+                
+        
+                input[type=text], select {
+        width: 30%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        }
+        
+
+    
+</body>
+</html>
